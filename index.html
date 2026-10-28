@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shiv Shakti Furniture & Engineering Works</title>
+  <meta name="description" content="शिव शक्ति फर्नीचर एंड इंजीनियरिंग वर्क्स, सेमरियाँ, कोचस, रोहतास, बिहार।">
+  <link rel="stylesheet" href="style.css">
+
+  <style>
+    /* Header logo */
+    .header-brand {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      min-width: 0;
+    }
+
+    .header-logo {
+      width: 70px;
+      height: 70px;
+      object-fit: contain;
+      flex-shrink: 0;
+      display: block;
+    }
+
+    .header-brand-text h1 {
+      margin-top: 0;
+    }
+
+    .header-brand-text p {
+      margin-bottom: 0;
+    }
+
+    /* ऊपर पिताजी और मालिकों की फोटो */
+    .hero-photo {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 14px;
+      width: 100%;
+    }
+
+    .father-photo {
+      width: 100%;
+      max-width: 420px;
+      height: 320px;
+      object-fit: contain;
+      object-position: center;
+      border-radius: 12px;
+      display: block;
+    }
+
+    .father-caption {
+      text-align: center;
+      margin: 0;
+    }
+
+    .father-caption h3 {
+      margin: 5px 0;
+    }
+
+    .father-caption p {
+      margin: 4px 0;
+    }
+
+    .top-owners {
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+      gap: 18px;
+      width: 100%;
+      flex-wrap: wrap;
+      margin-top: 8px;
+    }
+
+    .top-owner {
+      width: 100px;
+      text-align: center;
+    }
+
+    .top-owner img {
+      width: 90px;
+      height: 90px;
+      object-fit: cover;
+      object-position: center;
+      border-radius: 50%;
+      border: 3px solid #d4af37;
+      display: block;
+      margin: 0 auto;
+    }
+
+    .top-owner p {
+      margin: 7px 0;
+      font-size: 14px;
+    }
+
+    /* Website developer credit */
+    .developer-credit {
+      text-align: center;
+      padding: 12px 10px;
+      font-size: 13px;
+      border-top: 1px solid #d4af37;
+    }
+
+    .developer-credit strong {
+      color: #d4af37;
+    }
+
+    @media (max-width: 600px) {
+      .header-logo {
+        width: 52px;
+        height: 52px;
+      }
+
+      .father-photo {
+        height: 260px;
+      }
+
+      .top-owners {
+        gap: 8px;
+      }
+
+      .top-owner {
+        width: 85px;
+      }
+
+      .top-owner img {
+        width: 72px;
+        height: 72px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+<header class="header">
+  <div class="header-brand">
+
+    <img
+      class="header-logo"
+      src="images/logo.jpeg"
+      alt="Shiv Shakti Furniture का लोगो"
+      onerror="this.style.display='none'"
+    >
+
+    <div class="header-brand-text">
+      <h1>Shiv Shakti Furniture</h1>
+      <p>&amp; Engineering Works</p>
+      <p style="font-size:12px; margin-top:5px;">
+        सेमरियाँ, कोचस, रोहतास – 821112
+        <span> | Mob: 6207486280</span>
+      </p>
+    </div>
+
+  </div>
+
+  <button id="menuBtn" class="menu-btn" aria-label="मेन्यू खोलें">☰</button>
+
+  <nav id="nav">
+    <a href="#home">होम</a>
+    <a href="#products">प्रोडक्ट</a>
+    <a href="#poster">पोस्टर</a>
+    <a href="#about">हमारे बारे में</a>
+    <a href="#contact">संपर्क</a>
+  </nav>
+</header>
+
+<main>
+
+  <!-- होम सेक्शन -->
+  <section id="home" class="hero">
+
+    <div class="hero-content">
+      <span class="tag">Since 2015</span>
+
+      <h2>आपके घर के लिए<br>
+        <span>मजबूत और सुंदर फर्नीचर</span>
+      </h2>
+
+      <p>बेड, सोफा, कुर्सी, टेबल, अलमारी, दरवाजा, खिड़की और एल्युमिनियम का काम।</p>
+
+      <a class="btn" href="#products">हमारे प्रोडक्ट देखें</a>
+
+      <a class="btn btn-outline"
+         href="https://wa.me/916207486280"
+         target="_blank" rel="noopener">
+        WhatsApp पर संपर्क करें
+      </a>
+    </div>
+
+    <!-- पिताजी की फोटो और तीनों मालिक -->
+    <div class="hero-photo">
+
+      <img class="father-photo"
+           src="images/founder.jpeg"
+           alt="स्वर्गीय राम अवतार शर्मा"
+           onerror="this.style.display='none'">
+
+      <div class="father-caption">
+        <h3>पूज्य पिताजी को शत-शत नमन</h3>
+        <p>स्वर्गीय राम अवतार शर्मा</p>
+        <p>पुण्य स्मरण: 22 मार्च 2020</p>
+      </div>
+
+      <div class="top-owners">
+
+        <div class="top-owner">
+          <img src="images/dipak.jpeg"
+               alt="दीपक शर्मा"
+               onerror="this.style.display='none'">
+          <p>दीपक शर्मा</p>
+        </div>
+
+        <div class="top-owner">
+          <img src="images/dinesh.jpeg"
+               alt="दिनेश शर्मा"
+               onerror="this.style.display='none'">
+          <p>दिनेश शर्मा</p>
+        </div>
+
+        <div class="top-owner">
+          <img src="images/sonu.jpeg"
+               alt="सोनू शर्मा"
+               onerror="this.style.display='none'">
+          <p>सोनू शर्मा</p>
+        </div>
+
+      </div>
+    </div>
+
+  </section>
+
+  <!-- दुकान की खासियत -->
+  <section class="section">
+    <div class="section-heading">
+      <p class="tag">OUR WORK</p>
+      <h2>हमारी खासियत</h2>
+      <p>आपकी जरूरत के अनुसार फर्नीचर और एल्युमिनियम का काम।</p>
+    </div>
+
+    <div class="feature-grid">
+      <article class="feature">
+        <span>🪑</span>
+        <h3>फर्नीचर</h3>
+        <p>बेड, सोफा, कुर्सी, टेबल और अलमारी।</p>
+      </article>
+
+      <article class="feature">
+        <span>🪟</span>
+        <h3>एल्युमिनियम वर्क</h3>
+        <p>दरवाजे, खिड़कियाँ और जरूरत के अनुसार काम।</p>
+      </article>
+
+      <article class="feature">
+        <span>🛠️</span>
+        <h3>कस्टम डिजाइन</h3>
+        <p>आपकी पसंद और नाप के अनुसार बनवाने के लिए संपर्क करें।</p>
+      </article>
+    </div>
+  </section>
+
+  <!-- प्रोडक्ट सेक्शन -->
+  <section id="products" class="section products-section">
+    <div class="section-heading">
+      <p class="tag">OUR COLLECTION</p>
+      <h2>हमारे प्रोडक्ट</h2>
+      <p>फोटो देखें और कीमत या ऑर्डर के लिए WhatsApp करें।</p>
+    </div>
+
+    <input id="search" class="search"
+           type="search"
+           placeholder="प्रोडक्ट खोजें, जैसे बेड या सोफा..."
+           aria-label="प्रोडक्ट खोजें">
+
+    <div id="categories" class="categories"></div>
+    <div id="productGrid" class="product-grid"></div>
+
+    <p id="noResults" class="no-results" hidden>
+      कोई प्रोडक्ट नहीं मिला। दूसरा नाम खोजें।
+    </p>
+  </section>
+
+  <!-- दुकान का पोस्टर -->
+  <section id="poster" class="section poster-section">
+    <div class="section-heading">
+      <p class="tag">SHOP POSTER</p>
+      <h2>हमारी दुकान का पोस्टर</h2>
+      <p>यहाँ अपनी दुकान का विज्ञापन पोस्टर दिखाएँ।</p>
+    </div>
+
+    <img class="poster-image"
+         src="images/poster.jpeg"
+         alt="Shiv Shakti दुकान का पोस्टर"
+         onerror="this.style.display='none'">
+
+    <p class="poster-note">
+      पोस्टर नहीं दिखे तो जाँचें कि images फोल्डर में poster.jpeg मौजूद है।
+    </p>
+  </section>
+
+  <!-- दुकान के बारे में -->
+  <section id="about" class="section about-section">
+    <div class="section-heading">
+      <p class="tag">OUR STORY</p>
+      <h2>हमारी दुकान के बारे में</h2>
+      <p>वर्ष 2015 से आपकी सेवा में।</p>
+      <p>हमारे पूज्य पिताजी स्वर्गीय राम अवतार शर्मा की प्रेरणा और आशीर्वाद को समर्पित।</p>
+    </div>
+  </section>
+
+  <!-- संपर्क -->
+  <section id="contact" class="section contact-section">
+    <div class="section-heading">
+      <p class="tag">CONTACT US</p>
+      <h2>हमसे संपर्क करें</h2>
+    </div>
+
+    <div class="contact-card">
+      <h3>Shiv Shakti Furniture &amp; Engineering Works</h3>
+
+      <p><strong>पता:</strong> SEMARIA, KOCHAS, Rohtas, Bihar – 821112</p>
+
+      <p>Rohtas Public School के पास, NH319, Morya Hotel के बगल में।</p>
+
+      <p><strong>सुविधा:</strong> दुकान से सामान लेने की सुविधा। फिलहाल डिलीवरी उपलब्ध नहीं है।</p>
+
+      <p><strong>दीपक शर्मा:</strong> 6207486280</p>
+      <p><strong>दिनेश शर्मा:</strong> 6287128571</p>
+      <p><strong>सोनू शर्मा:</strong> 8271923130</p>
+
+      <a class="btn"
+         href="https://wa.me/916207486280"
+         target="_blank" rel="noopener">
+        WhatsApp पर पूछें
+      </a>
+
+      <a class="btn btn-outline"
+         href="https://www.google.com/maps/search/?api=1&query=Shiv+Shakti+Furniture+Engineering+Works+Semaria+Kochas+Rohtas+Bihar"
+         target="_blank" rel="noopener">
+        Google Maps पर देखें
+      </a>
+    </div>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <img src="images/logo.jpeg"
+       alt="दुकान का लोगो"
+       onerror="this.style.display='none'">
+
+  <p>© <span id="year"></span> Shiv Shakti Furniture &amp; Engineering Works</p>
+  <p>आपके विश्वास और सहयोग के लिए धन्यवाद।</p>
+
+  <div class="developer-credit">
+    Website Designed &amp; Developed by
+    <strong>Hareram Sharma</strong>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
